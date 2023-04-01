@@ -13,8 +13,8 @@ Saiba mais em [https://www.aleoficial.com.br](https://www.aleoficial.com.br).
 
 ## Este repositório inclui as seguintes pastas:
 
-* `Recursos do Frontend`: estrutura de pastas e arquivos (incluindo biblioteca de terceiros), exemplo AWS.
-* `Recursos do Backend`: políticas IAM e uso das ferramentas disponíveis na AWS, conforme listado no início.
+* `Recursos do Frontend`: estrutura de pastas e arquivos (incluindo biblioteca de terceiros) e, Framework Vue.
+* `Recursos do Backend`: políticas IAM e uso das ferramentas disponíveis na AWS e, Framework Backend Amplify.
 
 ## Arquitetura de solução e Software para pessoas que modificam o mundo com inovação!
 
