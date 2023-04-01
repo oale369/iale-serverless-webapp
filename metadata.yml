@@ -1,9 +1,9 @@
-# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# Copyright IAlexandre. All Rights Reserved.
 # SPDX-License-Identifier: MIT-0
 
 name: wildrydes-webapp
 title: Wild Rydes Web Application
-description: A simple web application that enables users to request unicorn rides from the Wild Rydes fleet. 
+description: Um aplicativo web simples que permite aos usuários solicitar passeios de unicórnio da frota Wild Rydes.
 categories: 
   - Compute
   - Application Integration
