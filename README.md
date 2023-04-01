@@ -1,4 +1,4 @@
-# Aplicativo Web, sem uso de servidor \0/
+# Aplicativo Web, sem uso de servidor \o/
 
 Aplicativo Web desenvolvido sem servidor ;)
 
