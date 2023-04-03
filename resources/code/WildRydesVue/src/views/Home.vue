@@ -57,13 +57,13 @@
     <div class="row column">
 
       <form onsubmit="javascript:void(0);">
-        <input type="email" placeholder="Insira seu e-mail">
+        <input type="email" placeholder="Enviar arquivo (excel ou CSV)" disabled>
         <button type="button">Enviar</button>
       </form>
 
-      <h2 class="section-title">Cadastrar-se</h2>
+      <h2 class="section-title">Ingestão de dados (*somente excel/CSV)</h2>
 
-      <p class="content">Corridas Selvagem está chegando! Digite seu e-mail para entrar no beta privado limitado.</p>
+      <p class="content">As corridas selvagens estão chegando! Envie agora mesmo sua informação para modelagem dos dados.</p>
 
       <div class="apps">
         <a class="app-icon" href="#"><img src="images/wr-home-apple.png"></a>

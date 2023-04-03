@@ -20,7 +20,6 @@
                 <li><router-link to="/investors">Investidores e Conselho de Administração</router-link></li>
                 <li><router-link to="/faq">FAQ</router-link></li> 
                 <li> <router-link to="/apply">Documentação</router-link> </li>
-                <li> <a href="/auth">Cadastrar-se</a> </li>
             </ul>
         </nav>
         <div :class="menuStatus">
