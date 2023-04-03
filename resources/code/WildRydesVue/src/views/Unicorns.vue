@@ -5,12 +5,12 @@
 
  <div class="row column medium-10 large-8 xxlarge-6">
     <p class="content">
-      Wild Rydes has a dedicated staff that recruits, trains, and tends to our herd of unicorns. We take great pride in the quality of unicorns and rydes that we provide to our customers, and our staff exercises the utmost care in vetting the unicorns that join our herd.
+      A Carreta Furacão tem uma equipe dedicada que recruta, treina e cuida de nosso rebanho de unicórnios. Temos muito orgulho da qualidade dos unicórnios (corredores) que fornecemos aos nossos clientes, e nossa equipe exerce o máximo cuidado ao examinar os unicórnios que se juntam ao nosso rebanho.
     </p>
     <p class="content">
-      Every unicorn goes through a rigorous due diligence process where we perform background checks, flying exams, and several rounds of interviews. Unicorns accepted to Wild Rydes are then treated to the best care and maintenance possible. We provide them excellent benefits, health care, and employee perks. This is part of our company philosophy in which happy unicorns lead to happy customers.
+      Todo unicórnio passa por um rigoroso processo de due diligence, onde realizamos verificações de antecedentes, exames de voo e várias rodadas de entrevistas. Os unicórnios aceitos na Carreta Furcão são então tratados com o melhor cuidado e manutenção possível. Oferecemos a eles excelentes benefícios, assistência médica e benefícios aos funcionários. Isso faz parte da filosofia de nossa empresa, na qual unicórnios felizes levam a clientes felizes.
     </p>
-    <p class="content">Meet a few of the unicorns that are part of our family.</p>
+    <p class="content">Conheça alguns dos unicórnios que fazem parte da nossa família.</p>
   </div>
 
   <section class="unicorns-list">
@@ -18,14 +18,14 @@
     <div class="row">
       <div class="unicorn jimmy">
         <div class="columns medium-5 large-6 xlarge-5 xlarge-offset-1">
-          <img src="images/wr-unicorn-one.png" alt="Jimmy Three Legs">
+          <img src="images/wr-unicorn-one.png" alt="El diablo">
         </div>
 
         <div class="columns medium-7 large-6 xlarge-5 xxlarge-4">
-          <h2 class="title">Bucephalus</h2>
-          <div class="subtitle">Golden Swiss</div>
+          <h2 class="title">El diablo</h2>
+          <div class="subtitle">Mais rápido que um furacão</div>
           <p class="content">
-            Bucephalus joined Wild Rydes in February 2016 and has been giving rydes almost daily. He says he most enjoys getting to know each of his ryders, which makes the job more interesting for him. In his spare time, Bucephalus enjoys watching sunsets and playing Pokemon Go.
+            El diablo juntou-se na Carreta Furacão em fevereiro de 2018 e tem feito corridas quase que diariamente. Em seu tempo livre, El diablo gosta de assistir o pôr do sol e jogar Pokemon Go.
           </p>
         </div>
       </div>
@@ -34,14 +34,14 @@
     <div class="row">
       <div class="unicorn henry">
         <div class="columns medium-5 medium-push-7 large-6 large-push-6 xlarge-5 xlarge-offset-1 xlarge-push-5">
-          <img src="images/wr-unicorn-two.png" alt="Hot Shoe Henry">
+          <img src="images/wr-unicorn-two.png" alt="Dark side">
         </div>
 
         <div class="columns medium-7 medium-pull-5 large-6 large-pull-6 xlarge-5 xlarge-pull-5 xxlarge-4 xxlarge-offset-1">
-          <h2 class="title">Shadowfox</h2>
-          <div class="subtitle">Brown Jersey</div>
+          <h2 class="title">Dark side</h2>
+          <div class="subtitle">Incrível</div>
           <p class="content">
-            Shadowfox joined Wild Rydes after completing a distinguished career in the military, where he toured the world in many critical missions. Shadowfox enjoys impressing his ryders with magic tricks that he learned from his previous owner.
+            Dark side se juntou a Carreta Furacão depois de completar uma distinta carreira corporativa noutra empresa, onde viajou pelo mundo em muitas missões críticas. Dark side gosta de impressionar em suas corridas com truques de mágica que aprendeu com seu dono anterior.
           </p>
         </div>
       </div>
@@ -54,10 +54,10 @@
         </div>
 
         <div class="columns medium-7 large-6 xlarge-5 xxlarge-4">
-          <h2 class="title">Rocinante</h2>
-          <div class="subtitle">Baby Flying Yellowback</div>
+          <h2 class="title">Brabuleta</h2>
+          <div class="subtitle">Elegância</div>
           <p class="content">
-            Rocinante recently joined the Wild Rydes team in Madrid, Spain. She was instrumental in forming Wild Rydes’ Spanish operations after a long, distinguished acting career in windmill shadow-jousting.
+            Brabuleta juntou-se recentemente à equipe Carreta Furacão em Madrid, Espanha. Ela foi fundamental na formação das operações espanholas da Carreta, após uma longa e distinta carreira de atriz em torneios de sombras de moinhos de vento.
           </p>
         </div>
       </div>
@@ -73,11 +73,11 @@ import footers from '@/components/footer.vue'
 import menu from '@/components/menu.vue'
 
 export default {
-  name: 'unicorns',
+  name: 'unicórnios',
   data(){
     return{
-      title:"Unicorns Are Our Friends",
-      content:"The app is what makes this service exist, but the unicorns make it move. Meet them and see who you are riding with!"
+      title:"Unicórnios são amigos",
+      content:"O aplicativo é o que faz esse serviço existir, mas os unicórnios fazem ele se movimentar. Conheça-os e veja com quem você está andando!"
     }
   },
   components: {

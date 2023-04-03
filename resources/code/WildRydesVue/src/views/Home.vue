@@ -7,38 +7,38 @@
     
   <section class="home-about">
     <div class="row column large-9 xlarge-6 xxlarge-4">
-      <h2 class="section-title">How Does This Work?</h2>
+      <h2 class="section-title">Como funciona o serviço?</h2>
       <p class="content">
-        In today’s fast paced world, you’ve got places you need to be but not enough time in your jam packed schedule. Wouldn’t it be nice if there were a transportation service that changed the way you get around daily? Introducing Wild Rydes, an innovative transportation service that helps people get to their destination faster and hassle-free. Getting started is as easy as tapping a button in our app.
+        No mundo acelerado de hoje, você tem lugares que precisa estar, mas não tem tempo suficiente em sua agenda lotada. Não seria bom se existisse um serviço de transporte que mudasse a forma como você se locomove diariamente? Apresentando a Carreta Furacão, um serviço de transporte inovador que ajuda as pessoas a chegarem ao seu destino com mais rapidez e sem complicações. Começar é tão fácil quanto tocar em um botão em nosso aplicativo.
       </p>
     </div>
 
     <div class="row medium-up-2 large-up-4">
       <div class="column">
         <div class="home-about-block">
-          <h3 class="title icon-download">Download The App</h3>
-          <p class="content">Head over to the app store and download the Wild Rydes app. You’re just a few taps away from getting your ryde.</p>
+          <h3 class="title icon-download">Baixe o aplicativo</h3>
+          <p class="content">Vá até a loja de aplicativos e baixe o aplicativo Carreta Furacão. Você está a apenas alguns toques de obter sua corrida.</p>
         </div>
       </div>
 
       <div class="column">
         <div class="home-about-block">
-          <h3 class="title icon-unicorn">Request A Unicorn</h3>
-          <p class="content">We can get you there. Simply request a ryde on the app and we'll connect you with a unicorn immediately.</p>
+          <h3 class="title icon-unicorn">Solicite um Unicórnio</h3>
+          <p class="content">Basta solicitar um corredor no aplicativo e nós o conectaremos a um unicórnio imediatamente.Podemos levá-lo até lá.</p>
         </div>
       </div>
 
       <div class="column">
         <div class="home-about-block">
-          <h3 class="title icon-price">Pick A Price</h3>
-          <p class="content">Pick the valuation you're willing to pay and your ryde is set up. The only surge is the acceleration you get when taking off.</p>
+          <h3 class="title icon-price">Escolha um preço</h3>
+          <p class="content">Escolha a avaliação que você está disposto a pagar e seu ryde está configurado. O único aumento é a aceleração que você obtém ao decolar.</p>
         </div>
       </div>
 
       <div class="column">
         <div class="home-about-block">
-          <h3 class="title icon-success">Ride Off To Success!</h3>
-          <p class="content">After matching with your unicorn and agreeing to its terms, you’ll be all set. Your unicorn will arrive shortly to pick you up.</p>
+          <h3 class="title icon-success">Cavalgue para o sucesso!</h3>
+          <p class="content">Depois de combinar com seu unicórnio e concordar com seus termos, você estará pronto. Seu unicórnio chegará em breve para buscá-lo.</p>
         </div>
       </div>
     </div>
@@ -46,39 +46,34 @@
 
   <section class="home-story">
     <div class="row column large-9 xlarge-6 xxlarge-4">
-      <h2 class="section-title">Our Story</h2>
+      <h2 class="section-title">Sobre nós</h2>
       <p class="content">
-        Wild Rydes was started by a former hedge fund analyst and a software developer. The two long-time friends happened upon the Wild Rydes idea after attending a silent yoga retreat in Nevada. After gazing upon the majestic herds of unicorns prancing across a surreal Nevada sunset, they witnessed firsthand the poverty and unemployment endemic to that once proud race. Whether it was modern society’s reliance on science over magic or not, we’ll never know the cause of their Ozymandian downfall and fade to obscurity. Moved by empathy, romance, and free enterprise, they saw an opportunity to marry society’s demand for faster, more flexible transportation to underutilized beasts of labor through an on-demand market making transportation app. Using the founders’ respective expertise in animal husbandry and software engineering, Wild Rydes was formed and has since raised untold amounts of venture capital. Today, Wild Rydes has thousands of unicorns in its network fulfilling hundreds of rydes each day.
+        A Carreta Furacão foi iniciada por um ex-engenheiro de software de uma grande instituição financeira. Depois de contemplar os majestosos rebanhos de unicórnios empinando em um pôr do sol surreal do rancho Histórias da Vida, o engenheiro testemunhou em primeira mão a pobreza e o desemprego endêmicos daquela outrora orgulhosa raça. Quer tenha sido a confiança da sociedade moderna na ciência sobre a magia ou não, nunca saberemos a causa de sua queda em Neverland e desaparecendo na obscuridade. Movido por empatia, romance e livre iniciativa, ele viu uma oportunidade de casar a demanda da sociedade por transporte mais rápido e flexível com bestas de trabalho subutilizadas por meio de um aplicativo de transporte sob demanda. Usando a experiência de suas respectivas habilidades de criação e engenharia de software, a Carreta Furacão foi formada e, desde então, levantou quantias incontáveis de capital de risco. Hoje, a Carreta Furacão tem milhares de unicórnios em sua rede cumprindo centenas de corridas todos os dias.
       </p>
     </div>
   </section>
 
   <section class="home-sign-up">
     <div class="row column">
-      <img class="icon-w" src="images/wr-home-W.png">
 
       <form onsubmit="javascript:void(0);">
-        <input type="email" placeholder="Enter your email address">
-        <button type="button">Submit</button>
+        <input type="email" placeholder="Insira seu e-mail">
+        <button type="button">Enviar</button>
       </form>
 
-      <h2 class="section-title">Sign Up</h2>
+      <h2 class="section-title">Cadastrar-se</h2>
 
-      <p class="content">Wild Rydes is coming soon! Enter your email to enter the limited private beta</p>
+      <p class="content">Corridas Selvagem está chegando! Digite seu e-mail para entrar no beta privado limitado.</p>
 
       <div class="apps">
-        <a class="app-icon" href=""><img src="images/wr-home-apple.png"></a>
-        <a class="app-icon" href=""><img src="images/wr-home-google.png"></a>
-        <a class="app-icon" href=""><img src="images/wr-home-blackberry.png"></a>
-        <a class="app-icon" href=""><img src="images/wr-home-Xiaomi.png"></a>
+        <a class="app-icon" href="#"><img src="images/wr-home-apple.png"></a>
+        <a class="app-icon" href="#"><img src="images/wr-home-google.png"></a>
       </div>
 
       <div class="social">
-        <a class="icon-fb" href="">Facebook</a>
-        <a class="icon-tw" href="">Twitter</a>
-        <a class="icon-ig" href="">Instagram</a>
-        <a class="icon-wc" href="">Wechat</a>
-        <a class="icon-wb" href="">Weibo</a>
+        <a class="icon-fb" href="#">Facebook</a>
+        <a class="icon-tw" href="#">Twitter</a>
+        <a class="icon-ig" href="#">Instagram</a>
       </div>
     </div>
   </section>
@@ -87,28 +82,12 @@
     <div class="row column medium-8 xxlarge-6">
       <div class="quote-wrap">
         <div class="quote">
-          “I was almost late to my ultimate frisbee tournament in DOLORES park. But Wild Rydes Got me there from the marina in under five minutes.”
+         “Eu estava quase atrasado para o meu último torneio de beach tennis no parque ALEGRIA. Mas a Carreta Furacão me trouxe do destino solicitado em menos de cinco minutos.
         </div>
-        <div class="quoter">- Satisfied Wild Rydes User</div>
+        <div class="quoter">- Usuário Satisfeito</div>
       </div>
     </div>
   </section>
-
-  <section class="kraken-callout">
-    <div class="row">
-      <div class="columns medium-6 xxlarge-4 xxlarge-offset-2">
-        <img src="images/wr-home-kraken.png">
-      </div>
-
-      <div class="columns medium-6 xlarge-5 xxlarge-4">
-        <h4 class="title">Coming Soon</h4>
-        <p class="content">
-          Kraken 3xplorer and Dragon Flyght. We’re looking to provide you a full service package from air, land, and to sea.
-        </p>
-      </div>
-    </div>
-  </section>
-
 
     <footers />
   </div>

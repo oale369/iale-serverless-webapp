@@ -3,36 +3,19 @@
       <div class="top-section">
           
             <menus :extraHeader="true" :title="title" :content="content" :logoColor="'dark'"  />
-         
+
           <div class="investors-list">
                 <div class="row">
                   <div class="columns large-4">
+                  </div>
+
+                  <div class="columns large-4">
                     <div class="investor">
-                      <h2 class="title pcp">Penglai Communications and Post New Century Technology Corporation Ltd</h2>
-                      <div class="subtitle">Global Communications Provider</div>
-                      <p class="content">
-                        PCPNCTC was formed in 2008 to hold the telecommunications services, media, and IT businesses of Penglai Communications and Post LTD, a multinational mass media and telecommunications company. PCPL provides broadband subscription television services, fixed telephone, and mobile telephone across 20 countries and 3 continents.
-                      </p>
                     </div>
                   </div>
 
                   <div class="columns large-4">
                     <div class="investor">
-                      <h2 class="title awesome">Tenderloin Capital</h2>
-                      <div class="subtitle">Venture Capital Firm</div>
-                      <p class="content">
-                        What makes us awesome sauce and not your typical venture firm? Backed by over three decades of experience and partnering successfully with entrepreneurs, Tenderloin Capital was founded to serve the needs of early-stage founders. It’s not just our experience that sets us apart; we relate to our entrepreneurs as people, not just as investments. Tenderloin Capital backs entrepreneurs who are building market-disrupting social-mobile-local-machine learned-artificially-intelligent cognitive experiences.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="columns large-4">
-                    <div class="investor">
-                      <h2 class="title barn">The Barn</h2>
-                      <div class="subtitle">Accelerator</div>
-                      <p class="content">
-                        The Barn is an institution for primarily incubating chicken eggs as well as the next revolutions in precision agriculture technology. The Barn created the industry defining model for funding sustainable, humane, non-GMO, and fairtrade early stage businesses in animal husbandry. We look forward to working with you.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -44,24 +27,24 @@
         <div class="row">
           <div class="columns large-4 large-push-4">
             <div class="intro block">
-              <h2 class="title">Our Board of Directors</h2>
+              <h2 class="title">Nosso Conselho de Administração</h2>
               <p class="content">
-                Wild Rydes has a talented Board of Directors which advises the company on strategy and enabling business success. Using its collective leadership intangibles, the Board works with Wild Rydes to ideate solutions and form audacious ideas to the company’s most pressing business challenges. The Board and the Company work together to make informed problem solving decisions using process optimization and agile decision making techniques.
+                A Carreta Furacão tem um talentoso Conselho de Administração sobre a estratégia o que possibilita o sucesso dos negócios. Usando seus intangíveis de liderança coletiva, o Conselho trabalha com a Carreta Furacão para criar soluções e formar ideias audaciosas para os desafios de negócios mais prementes da empresa. O Conselho e a Empresa trabalham juntos para tomar decisões informadas sobre a solução de problemas usando otimização de processos e técnicas de tomada de decisão ágil.
               </p>
             </div>
           </div>
 
           <div class="columns large-4 large-pull-4">
             <div class="one block">
-              <h3 class="title">Dr. Tim Wagner</h3>
-              <p class="content">Chairman of the Board, Grand Master of the Serverless Rite</p>
+              <h3 class="title">Dr. Forrest Gump</h3>
+              <p class="content">Presidente do Conselho.</p>
             </div>
           </div>
 
           <div class="columns large-4">
             <div class="two block">
-              <h3 class="title">Vaughn R. Nicholson</h3>
-              <p class="content">EIR at Awesome Sauce Capital</p>
+              <h3 class="title">Chuck Noland</h3>
+              <p class="content">Marketing da Vida.</p>
             </div>
           </div>
         </div>
@@ -69,22 +52,22 @@
         <div class="row">
           <div class="columns large-4">
             <div class="three block">
-              <h3 class="title">Conway Bulle</h3>
-              <p class="content">Partner at The Barn</p>
+              <h3 class="title">Wilson</h3>
+              <p class="content">Sócio na Celeiro.</p>
             </div>
           </div>
 
           <div class="columns large-4">
             <div class="four block">
-              <h3 class="title">Dr. Samantha Walleford, PhD</h3>
-              <p class="content">Managing Partner at Tenderloin Capital</p>
+              <h3 class="title">Dra. Lari, PhD</h3>
+              <p class="content">Sócio-gerente na Capital da Loucura.</p>
             </div>
           </div>
 
           <div class="columns large-4">
             <div class="five block">
-              <h3 class="title">Qilin Fei</h3>
-              <p class="content">Chairman of the Central Committee for Planning at PENGLAI COMMUNICATIONS AND POST NEW CENTURY TECHNOLOGY CORPORATION LTD</p>
+              <h3 class="title">Helen Hunt </h3>
+              <p class="content">Presidente do Comitê Central de Planejamento da Carreta Furacão Technology LTDA.</p>
             </div>
           </div>
         </div>
@@ -98,11 +81,11 @@ import footers from '@/components/footer.vue'
 import menu from '@/components/menu.vue'
 
 export default {
-  name: 'investors',
+  name: '',
   data(){
     return{
-      title:"Backed By Top Decile Investors",
-      content:"We would not be anywhere without our trusted investors. We thank each of them for where we are today. "
+      title:"",
+      content:""
     }
   },
   components: {

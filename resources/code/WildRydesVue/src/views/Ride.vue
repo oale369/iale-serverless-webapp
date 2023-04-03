@@ -11,8 +11,8 @@
         </div>
         <div class="panel-body">
             <ol id="updates">
-                <li>Welcome! Click the map to set your pickup location.</li>
-                <li>You are authenticated, Click here to see your <a v-on:click="show()">auth token</a></li>
+                <li>Bem-vindo! Clique no mapa para definir o local de coleta.</li>
+                <li>Você está autenticado, Clique aqui para ver sua <a v-on:click="show()">autorização do token</a></li>
                 <li v-for="item in items">
                     {{ item.message }}
                 </li>
@@ -30,18 +30,18 @@
 
                 <div class="modal-header">
                     <button v-on:click="hide()" type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Your Auth Token</h4>
+                    <h4 class="modal-title" id="myModalLabel">Seu Token</h4>
                 </div>
                 <div class="modal-body">
                    
                     <div class="AuthMessage" v-if="authMessage === true">
-                        <p>This page is not functional yet because there is no API invoke URL configured in <a href="/src/config.js">/src/config.js</a>. You'll configure this in Module 3.</p>
-                        <p>In the meantime, if you'd like to test the Amazon Cognito user pool authorizer for your API, use the auth token below:</p>
+                        <p>Esta página ainda não está funcional porque não há URL de invocação de API configurado em <a href="/src/config.js">/src/config.js</a>. Você precisa configurar isso.</p>
+                        <p>Enquanto isso, se você quiser testar o autorizador do grupo de usuários do Amazon Cognito para sua API, use o token de autenticação abaixo:</p>
                     </div>
                     <textarea class="authToken">{{authToken}}</textarea>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" v-on:click="hide()" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" v-on:click="hide()" class="btn btn-default" data-dismiss="modal">Fechar</button>
                 </div>
 
     </modal>

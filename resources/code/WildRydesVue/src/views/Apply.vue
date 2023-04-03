@@ -6,22 +6,22 @@
   </header>
  <section class="content">
     <div class="row column medium-10 large-7 xlarge-5">
-      <p>Wild Rydes is on the hunt for the most mythical creature of all: talented software engineers! We’re seeking a technical dream team who will help us build a future where every person has a unicorn to ryde.</p>
-      <p>From a technical standpoint, Wild Rydes believes in a future where there are no servers to provision, manage, or scale! Interested candidates can begin following the Serverless Way by exploring the following options:</p>
+      <p>A Carreta Furação está em busca da criatura mais mítica de todas: talentosos engenheiros de software! Estamos procurando uma equipe técnica dos sonhos que nos ajude a construir um futuro onde cada pessoa tenha um unicórnio para criar.</p>
+      <p>Do ponto de vista técnico, a Carreta Furacão acredita em um futuro onde não haverá servidores para provisionar, gerenciar ou escalar! Os candidatos interessados podem começar a seguir o Serverless Way explorando as seguintes opções:</p>
       <ul>
-        <li>Enter our <a href="http://awschatbot.devpost.com" target="_blank">hackathon</a></li>
-        <li>Train in the art of serverless</li>
+        <li>Participe do nosso <a href="#" target="_blank">hackathon</a></li>
+        <li>Treine na arte do serverless</li>
       </ul>
 
-      <h2>The Serverless Manifesto:</h2>
-      <p>Functions are the unit of deployment and scaling.</p>
-      <p>No machines, VMs, or containers visible in the programming model.</p>
-      <p>Permanent storage lives elsewhere.</p>
-      <p>Scales per request. Users cannot over- or under-provision capacity.</p>
-      <p>Never pay for idle (no cold servers/containers or their costs).</p>
-      <p>Implicitly fault tolerant because functions can run anywhere.</p>
-      <p>BYOC - Bring your own code.</p>
-      <p>Metrics and logging are a universal right.</p>
+      <h2>Serverless Manifesto:</h2>
+      <p>As funções são a unidade de implantação e dimensionamento.</p>
+      <p>Nenhuma máquina, VM ou contêiner visível no modelo de programação.</p>
+      <p>O armazenamento permanente vive em outro lugar.</p>
+      <p>Escalas por solicitação. Os usuários não podem fornecer capacidade excessiva ou insuficiente.</p>
+      <p>Nunca pague por inatividade (sem servidores/contêineres frios ou seus custos).</p>
+      <p>Implicitamente tolerante a falhas porque as funções podem ser executadas em qualquer lugar.</p>
+      <p>BYOC - Traga seu próprio código.</p>
+      <p>Métricas e registro são um direito universal.</p>
     </div>
   </section>
   <footers />
@@ -37,7 +37,7 @@ export default {
   name: 'home',
   data(){
     return{
-      title:"Apply Today"
+      title:"Documentação"
     }
   },
   components: {

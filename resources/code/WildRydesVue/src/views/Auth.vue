@@ -8,10 +8,10 @@
         <div class="backdrop"></div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">No Cognito User Pool Configured</h3>
+                <h3 class="panel-title">Nenhum grupo de usuários Cognito configurado</h3>
             </div>
             <div class="panel-body">
-                <p>There is no user pool configured in <a href="/js/config.js">/js/config.js</a>. You'll configure this in Module 2 of the workshop.</p>
+                <p>Não há grupo de usuários configurado em <a href="/js/config.js">/js/config.js</a>. Você precisa configurar isso, bb!</p>
             </div>
         </div>
       </div>
@@ -22,8 +22,8 @@
         <amplify-authenticator></amplify-authenticator>
       </div>
       <div class="container" style="text-align:center;">
-          <h3 v-if="user">{{user.username}} is Logged in</h3>
-          <a  v-if="user" class="home-button" href="/ride">Giddy Up!</a>
+          <h3 v-if="user">{{user.username}} esta Logado em</h3>
+          <a  v-if="user" class="home-button" href="/ride">Vai Cavalo!</a>
           
       </div>
     </div>
@@ -51,7 +51,7 @@ export default {
       profilePic: false,
       imagePath: `${AmplifyStore.state.user.username}/avatar`,
       photoPickerConfig: {
-        header: 'Upload Profile Pic',
+        header: 'Upload sua Foto de Perfil',
         accept: 'image/*',
         path: `${AmplifyStore.state.user.username}/`,
         defaultName: 'avatar'
@@ -59,7 +59,7 @@ export default {
       mfa: false,
       fields: [
         { type: 'string', name: 'email', label: 'Email' },
-        { type: 'string', name: 'phone_number', label: 'Phone Number' }
+        { type: 'string', name: 'phone_number', label: 'Telefone' }
       ],
     };
   },
@@ -77,7 +77,7 @@ export default {
     mfaConfig: function() {
       let that = this;
       return {
-        mfaDescription: 'My app\'s mfa description!!',
+        mfaDescription: 'Me app\'s mfa!!',
         mfaTypes: ['TOTP', 'SMS', 'None'],
         cancelHandler: function() {
           that.toggleAccordion('mfa')
